@@ -6,7 +6,6 @@ const Say = () => {
   const onClickLeave = () => setMessage('안녕히 가세요');
 
   const [color, setColor] = useState('black');
-
   return (
     <div>
       <button onClick={onClickEnter}>입장</button>
